@@ -85,7 +85,7 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
     bottom:210px;
     font-weight:700;
     font-size:135px;
-    color:white;
+    color: #425a73;
     line-height:0.9;
     letter-spacing:-3px;
 }
