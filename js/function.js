@@ -42,23 +42,6 @@ $(function(){
         }
       }
     });//end of header ecent
-  
-    //tag
-    $tag.on('click',function(event){
-      tagIdx = $(this).attr('href');
-  
-      if(tagIdx=='sub.html'){
-        $('#aboutme>.content1-left>a').trigger("click");
-  
-      }else{
-        event.preventDefault();
-  
-        $('html,body').stop().animate({
-          scrollTop : arrTopVal[tagIdx]
-        },500,'easeInOutCubic');
-      }
-    });
-  
   });//end of header handler
   
   $(function(){
@@ -69,6 +52,7 @@ $(function(){
     var $listImg = $('#project>.container>.view>li');
     var $viewOpen = $('.viewOpen');
     var $viewImg = $('#project>.project_bg>.project_img');
+    var $view = $('project>.project_bg');
   
   
     var nowIdx = 0;
