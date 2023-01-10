@@ -277,7 +277,7 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
 }
 #project>.container>.menu>li{
     float:left;
-    margin-left:0;
+    margin-left:20px;
     font-size:20px;
 }
 #project>.container>.menu>li:first-child{
