@@ -78,6 +78,7 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
 #home>.container>p:nth-child(2){
     right:60px;
     transform:rotate(90deg);
+    
 }
 #home>.container>h1{
     position:absolute;
@@ -85,7 +86,7 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
     bottom:210px;
     font-weight:700;
     font-size:135px;
-    color: #425a73;
+    color: #b7c4d1;
     line-height:0.9;
     letter-spacing:-3px;
 }
@@ -299,7 +300,7 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
     line-height:40px;
     transition:all 0.4s;
 }
-#project>.container>.menu>li:hover>a,#project>.container>.menu>li>a:focus,#project>.menu>li.on>a{
+#project>.container>.menu>li:hover>a, #project>.container>.menu>li>a:focus, #project>.menu>li.on>a{
     color:#425a73;
     font-weight:700;
     font-size:19px;
@@ -344,3 +345,38 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
     text-indent:-9999px;
     background-image:url(./images/collab.png);
 }
+#project>.container>.view>li:nth-child(2)>.view_img{
+    background-image:url(./images/404.png);
+}
+#project>.container>.view>li:nth-child(3)>.view_img{
+    background-image:url(./images/404.png);
+}
+#project>.container>.view>li:nth-child(4)>.view_img{
+    background-image:url(./images/404.png);
+}
+#project>.container>.view>li:nth-child(5)>.view_img{
+    background-image:url(./images/404.png);
+}
+#project>.container>.view>li:nth-child(6)>.view_img{
+    background-image:url(./images/404.png);
+}
+#project>.container>.view>li:nth-child(7)>.view_img{
+    background-image:url(./images/404.png);
+}
+#project>.container>.view>li>a{
+    float:left;
+    display:block;
+    width:140px;
+    height:40px;
+    margin:100px 10px 0 0;
+    line-height:40px;
+    text-align:center;
+    font-size: 16px;
+    font-size: 500;
+    color:#425a73;
+    background-color:#fff;
+    border:1px solid #425a73;
+    border-radius:5px;
+    transition:all 0.4s;
+}
+#project>.container>.view>li>a:hover,#project>.container>.view>li>a:focus{color:#fff; background-color:#425a73;}
